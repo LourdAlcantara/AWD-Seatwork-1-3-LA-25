@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration and Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../page2/assets/css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="./assets/img/Logo.png" alt="Cinema Hub Logo" />
+        </div>
+        <nav class="nav-links">
+            <a href="#">HOME</a>
+            <a href="../page1/index.html">RESERVE</a>
+            <a href="../page2/index.html">SIGN-UP NOW</a>
+        </nav>
+    </header>
+
+
+
+    <div class="form-row">
+        <!-- Register Form -->
+        <div class="form-container">
+            <h1>Register</h1>
+            <input type="email" id="registerEmail" placeholder="Enter email" required>
+            <input type="password" id="registerPassword" placeholder="Enter password" required>
+            <button type="button" onclick="registerAccount()">Register</button>
+        </div>
+    
+        <!-- Login Form -->
+        <div class="form-container">
+            <h1>Login</h1>
+            <input type="email" id="loginEmail" placeholder="Enter email" required>
+            <input type="password" id="loginPassword" placeholder="Enter password" required>
+            <button type="button" onclick="loginAccount()">Login</button>
+        </div>
+    </div>
+
+    <button type="button" class="btn back-button">
+        <a href="../../index.html" class="back-link">GO TO LANDING PAGE</a>
+    </button>
+
+    <footer>
+        <div class="container text-center">
+            <p>&copy; 2025 Coding Basics. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="/assets/js/script.js"></script>
+</body>
+</html>

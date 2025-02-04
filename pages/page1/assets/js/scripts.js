@@ -18,7 +18,7 @@ seats.forEach(seat => {
         if (!seat.classList.contains('sold')) {
             seat.classList.toggle('selected');
             updateSelectedCount();
-        }
+        }   
     });
 });
 
