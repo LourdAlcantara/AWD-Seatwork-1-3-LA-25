@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=".//assets/css/style.css">
+    <title>Cinema Ticketing System</title>
+</head>
+<body>
+    <div class="main-content">
+    <div class="movie-container">
+        <label> Select a movie: </label>
+        <select id="movie">
+            <option value="220">2 Fast 2 Furious</option>
+            <option value="320">The Fast and the Furious: Tokyo Drift</option>
+        </select>
+    </div>
+
+    <ul class="showcase">
+        <li>
+            <div class="seat available"></div> 
+            <small>Available</small>
+        </li>
+        <li>
+            <div class="seat selected"></div> 
+            <small>Selected</small>
+        </li>
+        <li>
+            <div class="seat sold"></div> 
+            <small>Sold</small>
+        </li>
+    </ul>
+<div class="container">
+    <div class="screen"></div>
+
+    <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+    </div>
+
+    <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat sold"></div>
+        <div class="seat sold"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+    </div>
+
+    <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat sold"></div>
+        <div class="seat sold"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+    </div>
+
+    <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat sold"></div>
+        <div class="seat sold"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+    </div>
+
+    <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat sold"></div>
+        <div class="seat sold"></div>
+        <div class="seat sold"></div>
+        <div class="seat"></div>
+    </div>
+</div>
+
+
+<button type="button" class="btn btn-danger btn-lg" id="confirmButton">CONFIRM</button>
+
+
+<p class="text">
+    You have selected <span id="count">0</span> seat for a price of PHP<span id="total">0</span>
+</p>
+
+<script src="./assets/js/scripts.js"></script>
+
+</body>
+</html>
