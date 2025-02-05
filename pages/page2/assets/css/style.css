@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;700&display=swap');
+
+
 body {
+    background: url('../img/wallpaper.jpg');
     overflow-x: hidden;
-    background-color: #111111; /* Updated background color */
+    background-color: #111111; 
     color: white;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
 }
 
@@ -13,66 +17,72 @@ body {
 }
 
 .logo img {
-    height: 80px; /* Maintain height for visibility */
-    width: auto; /* Maintain aspect ratio */
-    max-width: 100%; /* Ensure it doesn't overflow */
+    height: 80px; 
+    width: auto; 
+    max-width: 100%; 
 }
 
 header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(51, 51, 51, 0.8);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 10px;
-    background-color: rgba(51, 51, 51, 0.8); /* Updated to #333333 */
-    position: fixed;
-    width: 100%;
-    z-index: 1000;
+    padding: 10px 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
 }
 
 .nav-links {
     margin-right: 20px;
     display: flex;
-    gap: 10px; /* Reduce gap for better fit */
-    flex-wrap: nowrap; /* Prevent wrapping */
-    overflow: hidden; /* Prevent overflow */
+    gap: 10px; 
+    flex-wrap: nowrap; 
+    overflow: hidden; 
 }
 
 header h1 {
     color: antiquewhite;
     margin: 0;
-    font-size: 20px; /* Slightly reduced font size */
+    font-size: 20px; 
 }
 
 .nav-links a {
-    color: white; /* Keep link color white for visibility */
+    color: white; 
     text-decoration: none;
-    padding: 6px 12px; /* Adjusted padding for better fit */
-    white-space: nowrap; /* Prevent text from wrapping */
-    flex-grow: 1; /* Allow links to grow and take available space */
+    padding: 6px 12px; 
+    white-space: nowrap; 
+    flex-grow: 1; 
 }
-
-
-
-
 
 .form-row {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
-    gap: 20px; /* Space between forms */
+    gap: 30px;
 }
 
 .form-container {
-    background: rgba(51, 51, 51, 0.7); /* Form background */
-    padding: 20px;
+    background: rgba(51, 51, 51, 0.7);
+    padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    width: 350px;
+    text-align: center;
 }
 
 h1 {
     margin-bottom: 15px;
+}
+.main-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+    padding-top: 80px; /* Push content down to avoid navbar overlap */
 }
 
 input {
@@ -83,23 +93,26 @@ input {
     border-radius: 5px;
 }
 
-.btn {
-    padding: 10px 20px; 
-    font-size: 14px; 
-    background-color: yellow; /* Button color changed to yellow */
-    color: black; /* Text color for contrast */
-    border: none; /* Remove border */
-    border-radius: 5px; /* Rounded corners */
-    cursor: pointer; /* Pointer cursor on hover */
+.btn-danger {
+    background-color: yellow; 
+    border: 2px solid yellow;
+    color: black; 
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
-.btn:hover {
-    background-color: darkgoldenrod; /* Darker shade on hover */
+.btn-danger:hover {
+    background-color: darkgoldenrod;
+    border-color: darkgoldenrod;
 }
+
 
 a {
     text-decoration: none;
-    color: black; /* Link color for the back button */
+    color: black; 
 }
 
 video.fullscreen {
@@ -114,8 +127,8 @@ video.fullscreen {
 
 footer {
     position: relative;
-    z-index: 1; /* Ensure footer is above video */
+    z-index: 1; 
     padding: 20px;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent footer */
+    background-color: rgba(0, 0, 0, 0.7); 
 }

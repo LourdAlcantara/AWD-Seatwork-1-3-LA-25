@@ -35,3 +35,5 @@ confirmButton.addEventListener('click', () => {
     updateSelectedCount(); // Update the count and total after confirming
     }
 });
+
+
