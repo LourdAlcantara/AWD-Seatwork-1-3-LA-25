@@ -54,7 +54,7 @@
 
 ## Overview
 
-CinemaHub is an online platform designed to enhance the cinema experience by allowing users to easily register, log in, and reserve tickets for various movies. Built using HTML for structure, CSS for styling, and JavaScript for interactivity, the system features a user-friendly interface where moviegoers can browse current listings, select their preferred films, choose seats, and manage their bookings seamlessly across devices. This project aims to streamline the ticket purchasing process, reduce wait times, and provide a convenient way for users to enjoy their cinema experience.
+CinemaHub is an online platform designed to enhance the cinema experience by allowing users to easily register, log in, and reserve tickets for various movies. Built using HTML for structure, CSS for styling, and JavaScript for interactivity, the system features a user-friendly interface where moviegoers can browse current listings, select their preferred films, choose seats, and manage their bookings seamlessly across devices. This project aims to streamline the ticket purchasing process, reduce wait times, and provide a convenient way for users to enjoy their experiences.
 
 ### Key Components
 - MultiPage Website
