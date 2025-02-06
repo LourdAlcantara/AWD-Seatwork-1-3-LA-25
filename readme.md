@@ -4,32 +4,29 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
-  <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+  <a href="https://github.com/LourdAlcantara/">
+    <img src="../AWD-Seatwork-1-3-LA-25/assets/img/Logo.png" alt="Nyebe" width="130" height="100">
   </a>
-<!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+
+  <h3 align="center">CinemaHub</h3>
 </div>
-<!-- TODO: Make a short description -->
+
 <div align="center">
-  Short Description. (Optional)
+  CinemaHub is an intuitive movie ticketing system designed to provide users with an engaging experience for browsing and purchasing movie tickets.
 </div>
 
 <br />
 
-<!-- TODO: Change the zyx-0314 into your github username  -->
-<!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
 
-[![wakatime](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8.svg)](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8)
+
+[![wakatime](https://wakatime.com/badge/user/982b0e95-c30b-4dc1-a5d1-30ef6968400c/project/38b42776-9c39-47c9-98c9-b88269cb7139.svg)](https://wakatime.com/badge/user/982b0e95-c30b-4dc1-a5d1-30ef6968400c/project/38b42776-9c39-47c9-98c9-b88269cb7139)
 
 ---
 
 <br />
 <br />
 
-<!-- TODO: If you want to add more layers for your readme -->
+
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -57,25 +54,14 @@
 
 ## Overview
 
-<!-- TODO: To be changed -->
-<!-- The following are just sample -->
-Description of the project in details.
-
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+CinemaHub is an online platform designed to enhance the cinema experience by allowing users to easily register, log in, and reserve tickets for various movies. Built using HTML for structure, CSS for styling, and JavaScript for interactivity, the system features a user-friendly interface where moviegoers can browse current listings, select their preferred films, choose seats, and manage their bookings seamlessly across devices. This project aims to streamline the ticket purchasing process, reduce wait times, and provide a convenient way for users to enjoy their cinema experience.
 
 ### Key Components
-<!-- TODO: List of Key Components -->
-<!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
+- MultiPage Website
 - Transactional
 
 ### Technology
-<!-- TODO: List of Technology Used -->
+
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
@@ -116,7 +102,9 @@ WD-ProjectName
 
 ## Resources
 
-<!-- TODO: Add References -->
+
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+|Canva| Creation of Logo | https://www.canva.com/ |
+|Pixels| Source of wallpapers | https://www.pexels.com/ |
+| Poe | Minor debugging and design  | https://poe.com/ |
